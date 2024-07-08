@@ -1,0 +1,253 @@
+.carousel-caption h3 {
+    color: #ff6347; /* Màu cam sáng */
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+    border: 2px solid #ff4500; /* Đường viền màu cam đỏ */
+    border-radius: 10px; /* Góc bo tròn */
+}
+
+.carousel-caption p {
+    color: #ff4500; /* Màu cam đỏ */
+}
+
+.carousel-caption {
+    width: 450px;
+    margin-left: 30%;
+    background: rgba(255, 69, 0, 0.7); /* Nền màu cam đỏ với độ trong suốt */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-control-prev {
+    background-color: #ff4500; /* Nền màu cam đỏ */
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    background-color: #ff4500; /* Nền màu cam đỏ */
+    border-radius: 50%;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #ff6347; /* Đường viền màu cam sáng */
+    border-radius: 10px; /* Góc bo tròn */
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-bottom: 2px solid #ff6347; /* Đường viền dưới màu cam sáng */
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+    background: #ffebcd; /* Nền màu kem nhạt */
+    border-radius: 0 0 10px 10px; /* Góc bo tròn phía dưới */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff4500; /* Màu cam đỏ */
+}
+
+.card-price-sale {
+    font-size: 1.2rem;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.card-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff4500; /* Màu cam đỏ */
+}
+
+.btn-primary {
+    background-color: #ff4500; /* Nền màu cam đỏ */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff6347; /* Nền màu cam sáng */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    background-color: #fffaf0; /* Nền màu trắng ngà */
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4500; /* Màu cam đỏ */
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #ff4500; /* Màu cam đỏ */
+}
+
+.product-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-img {
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.product-content {
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 1.75em;
+    color: #ff4500; /* Màu cam đỏ */
+}
+
+.product-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-details {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #ff4500; /* Màu cam đỏ */
+    margin-bottom: 20px;
+}
+
+.btn-outline-primary {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 2px solid #ff4500; /* Viền màu cam đỏ */
+    color: #ff4500; /* Màu cam đỏ */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff4500; /* Nền màu cam đỏ */
+    color: #ffffff; /* Màu chữ trắng */
+}
+
+.footer {
+    background-color: #ff4500; /* Nền màu cam đỏ */
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .info, .footer .extras {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .info .title, .footer .extras .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer .info .item, .footer .extras .item {
+    margin: 5px 0;
+}
+
+.footer .decor {
+    height: 3px;
+    width: 50px;
+    background-color: #f39c12;
+    margin: 10px 0;
+}
+
+.footer .social-icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #f39c12; /* Màu cam vàng */
+}
+/* Đoạn mã CSS cho phần đăng ký */
+.register-form {
+    position: fixed;
+    top: 20px; /* Căn phía trên */
+    right: 20px; /* Căn phía bên phải */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form .form-control {
+    margin-bottom: 10px;
+}
+
+.register-form button {
+    margin-top: 10px;
+}
+

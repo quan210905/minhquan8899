@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1877f2; /* Facebook blue */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #1c1e21; /* Dark text color */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #1c1e21; /* Dark text color */
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #1877f2; /* Facebook blue */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-button {
+  width: calc(50% - 5px);
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1877f2; /* Facebook blue */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #166fe5; /* Darker shade of Facebook blue */
+}
+
+.reset-button {
+  width: calc(50% - 5px);
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e4e6eb; /* Light gray */
+  color: #1c1e21; /* Dark text color */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #d4d6db; /* Darker shade of gray */
+}
+
+.create-account-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #1877f2; /* Facebook blue */
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.create-account-link:hover {
+  text-decoration: underline;
+}
